@@ -4,120 +4,196 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kid Quest TV — a voice-steered learning adventure for Apple TV</title>
-  <meta name="description" content="Kid Quest TV is an educational adventure for children about 4 to 8 on Apple TV. Kids can steer a short quest with their voice. The Siri Remote works too. No ads, no tracking, no accounts. Voice stays on the device.">
-  <meta name="theme-color" content="#071C22">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Kid Quest TV is a short learning adventure on Apple TV for kids about 4 to 8. Kids can say the choice they see. The Siri Remote works too. No ads, no tracking, no accounts. Voice stays on the Apple TV.">
+  <link rel="canonical" href="https://erdtheturd.github.io/kidquesttv/">
+  <meta name="theme-color" content="#0D2933">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Kid Quest TV">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://erdtheturd.github.io/kidquesttv/">
   <meta property="og:title" content="Kid Quest TV — a voice-steered learning adventure for Apple TV">
-  <meta property="og:description" content="An educational adventure for children about 4 to 8. Steer a short quest with your voice, or use the Siri Remote. No ads, no tracking, no accounts.">
-  <meta property="og:image" content="assets/og.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:description" content="Kids say the choice on the screen. Lumen walks the lily-pond path. Coming to Apple TV.">
+  <meta property="og:image" content="https://erdtheturd.github.io/kidquesttv/assets/og.png">
+  <meta property="og:image:alt" content="Kid Quest TV">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Kid Quest TV — a voice-steered learning adventure for Apple TV">
-  <meta name="twitter:description" content="An educational adventure for children about 4 to 8 on Apple TV. Voice stays on the device.">
-  <meta name="twitter:image" content="assets/og.jpg">
+  <meta name="twitter:description" content="Kids say the choice on the screen. Lumen walks the lily-pond path. Coming to Apple TV.">
+  <meta name="twitter:image" content="https://erdtheturd.github.io/kidquesttv/assets/og.png">
+
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <div class="wrap inner">
-      <a class="brand" href="./">
-        <img src="assets/lumen.svg" width="36" height="36" alt="">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./" aria-current="page">
+        <img class="brand-mark" src="assets/mark.svg" width="28" height="28" alt="">
         <span>Kid Quest TV</span>
       </a>
-      <nav class="nav" aria-label="Primary">
-        <a href="#privacy">Privacy</a>
-        <a href="privacy.html">Privacy policy</a>
-        <a href="support.html">Support</a>
-      </nav>
-    </div>
+      <ul class="nav-links">
+        <li><a href="./" aria-current="page">Home</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">For Apple TV</p>
-          <h1>A voice-steered learning adventure.</h1>
-          <p class="lead">Kids about 4 to 8 help Lumen, a little fox with a lantern, along a lily-pond path. They can say the choice they see on screen. The Siri Remote works too.</p>
-          <p class="coming">Coming soon to Apple TV</p>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="wordmark">Kid Quest TV</p>
+          <h1>Kids say the choice on the screen. Lumen walks the lily-pond path.</h1>
+          <p class="lede">A short learning adventure on Apple TV for kids about 4 to 8. Speech recognition, when used, stays on the device. The Siri Remote works too.</p>
+          <div class="hero-cta">
+            <p class="coming-pill">Coming to Apple TV</p>
+            <p class="device-note">For Apple TV</p>
+          </div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="pond-hint"></div>
-          <img src="assets/icon-512.png" width="512" height="512" alt="">
+
+        <div>
+          <figure class="device">
+            <div class="tv">
+            <div class="tv-screen meadow" role="img" aria-label="Title screen. Lumen the fox holds a lantern. The words Kid Quest TV and A voice-steered learning adventure appear above Start Quest and Parents.">
+              <div class="ui-title-screen">
+                <img class="ui-lumen ui-lumen-lg" src="assets/lumen.svg" width="160" height="160" alt="">
+                <p class="ui-app-name">Kid Quest TV</p>
+                <p class="ui-tagline">A voice-steered learning adventure</p>
+                <div class="ui-actions">
+                  <span class="ui-btn ui-btn-primary">Start Quest</span>
+                  <span class="ui-btn ui-btn-secondary">Parents</span>
+                </div>
+                <p class="ui-hint">Say “Start” or “Parents,” or use the Siri Remote.</p>
+              </div>
+            </div>
+            </div>
+            <figcaption class="caption">Title screen, drawn from the app’s layout, type, and colors — not a simulator screenshot.</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section id="about">
-      <div class="wrap split">
-        <div>
-          <p class="section-kicker">What it is</p>
-          <h2>A short quest. A few choices. Something to notice along the way.</h2>
-        </div>
-        <div class="prose">
-          <p>Kid Quest TV is an educational adventure made for the living-room screen. In the first quest, Lumen walks a lily-pond path. Children pick a way across, count the frogs on the pads, and meet one simple, accurate animal fact: a frog starts life as a tadpole.</p>
-          <p>The story is short on purpose. Big type, two clear choices at a time, and a calm ending. It is meant to be played together, or by a child with a remote in hand.</p>
-        </div>
+    <section class="screens" aria-label="Other screens from the first quest">
+      <div class="wrap screens-grid">
+        <figure class="device">
+          <div class="tv tv-sm">
+            <div class="tv-screen meadow" role="img" aria-label="Counting Frogs screen. The prompt asks how many frogs are on the pads. Three frogs sit on lily pads. Choices are 3 and 5.">
+              <div class="ui-quest">
+                <div class="ui-quest-top">
+                  <img class="ui-lumen ui-lumen-sm" src="assets/lumen.svg" width="64" height="64" alt="">
+                </div>
+                <p class="ui-scene-title">Counting Frogs</p>
+                <p class="ui-prompt">How many frogs are on the pads?</p>
+                <div class="ui-frogs" aria-hidden="true">
+                  <svg class="frog" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="72" height="60" aria-hidden="true">
+  <ellipse cx="60" cy="84" rx="55" ry="18" fill="#408C61"/>
+  <ellipse cx="60" cy="58" rx="32" ry="21" fill="#529E57"/>
+  <circle cx="60" cy="36" r="20" fill="#5CAD61"/>
+  <circle cx="50" cy="26" r="6" fill="#F5F0E0"/>
+  <circle cx="70" cy="26" r="6" fill="#F5F0E0"/>
+  <circle cx="50" cy="26" r="3" fill="#0D2933"/>
+  <circle cx="70" cy="26" r="3" fill="#0D2933"/>
+</svg>
+<svg class="frog" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="72" height="60" aria-hidden="true">
+  <ellipse cx="60" cy="84" rx="55" ry="18" fill="#408C61"/>
+  <ellipse cx="60" cy="58" rx="32" ry="21" fill="#529E57"/>
+  <circle cx="60" cy="36" r="20" fill="#5CAD61"/>
+  <circle cx="50" cy="26" r="6" fill="#F5F0E0"/>
+  <circle cx="70" cy="26" r="6" fill="#F5F0E0"/>
+  <circle cx="50" cy="26" r="3" fill="#0D2933"/>
+  <circle cx="70" cy="26" r="3" fill="#0D2933"/>
+</svg>
+<svg class="frog" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="72" height="60" aria-hidden="true">
+  <ellipse cx="60" cy="84" rx="55" ry="18" fill="#408C61"/>
+  <ellipse cx="60" cy="58" rx="32" ry="21" fill="#529E57"/>
+  <circle cx="60" cy="36" r="20" fill="#5CAD61"/>
+  <circle cx="50" cy="26" r="6" fill="#F5F0E0"/>
+  <circle cx="70" cy="26" r="6" fill="#F5F0E0"/>
+  <circle cx="50" cy="26" r="3" fill="#0D2933"/>
+  <circle cx="70" cy="26" r="3" fill="#0D2933"/>
+</svg>
+
+                </div>
+                <div class="ui-actions">
+                  <span class="ui-btn ui-btn-choice">3</span>
+                  <span class="ui-btn ui-btn-choice">5</span>
+                </div>
+                <p class="ui-hint">Say a choice, or click with the Siri Remote.</p>
+              </div>
+            </div>
+          </div>
+          <figcaption class="caption">Counting Frogs — three frogs sit on the pads. The choices are 3 and 5.</figcaption>
+        </figure>
+        <figure class="device">
+          <div class="tv tv-sm">
+            <div class="tv-screen meadow" role="img" aria-label="Frog Fact screen. The prompt reads: A frog starts life as a…? Choices are Tadpole and Caterpillar.">
+              <div class="ui-quest">
+                <div class="ui-quest-top">
+                  <img class="ui-lumen ui-lumen-sm" src="assets/lumen.svg" width="64" height="64" alt="">
+                </div>
+                <p class="ui-scene-title">Frog Fact</p>
+                <p class="ui-prompt">A frog starts life as a…?</p>
+                <div class="ui-actions">
+                  <span class="ui-btn ui-btn-choice">Tadpole</span>
+                  <span class="ui-btn ui-btn-choice">Caterpillar</span>
+                </div>
+                <p class="ui-hint">Say a choice, or click with the Siri Remote.</p>
+              </div>
+            </div>
+          </div>
+          <figcaption class="caption">Frog Fact — “A frog starts life as a…?” The correct choice is Tadpole.</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-title">
       <div class="wrap">
-        <div class="cards">
-          <article class="card">
+        <div class="features-head">
+          <h2 id="features-title">What’s in the first quest</h2>
+          <p>The outline app, as it stands. Nothing more.</p>
+        </div>
+        <ul class="feature-list">
+          <li>
+            <h3>Lily-Pond Path</h3>
+            <p>Lumen needs a way across. Kids choose Stepping Stones or Wooden Bridge, then a kind thing to do: Leave a Lantern or Share a Berry.</p>
+          </li>
+          <li>
+            <h3>Counting Frogs</h3>
+            <p>Three frogs sit on the pads. The question is “How many frogs are on the pads?” with the choices 3 and 5. A miss gets a calm hint: “Almost — take another look and try again.”</p>
+          </li>
+          <li>
+            <h3>One frog fact</h3>
+            <p>The question is “A frog starts life as a…?” The choices are Tadpole and Caterpillar. After a correct answer, the app states the fact: “A frog starts life as a tadpole.”</p>
+          </li>
+          <li>
             <h3>Steer with your voice</h3>
-            <p>When voice is available, kids can say the choice on the screen. If it isn’t, the Siri Remote is a full way to play.</p>
-          </article>
-          <article class="card">
-            <h3>Learn as you go</h3>
-            <p>The first quest includes a simple counting question and one animal fact. We only use facts we are sure are accurate.</p>
-          </article>
-          <article class="card">
-            <h3>Made for Apple TV</h3>
-            <p>Large, focusable choices designed for the Siri Remote and the living-room couch. No account to set up.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="privacy-band" id="privacy">
-      <div class="wrap split">
-        <div>
-          <p class="section-kicker">Privacy</p>
-          <h2>No ads. No tracking. No accounts. Voice stays on the device.</h2>
-        </div>
-        <div>
-          <ul class="privacy-list">
-            <li><span class="mark" aria-hidden="true">✓</span><span>There are no ads, and nothing is sold or shared for advertising.</span></li>
-            <li><span class="mark" aria-hidden="true">✓</span><span>There is no tracking and no analytics.</span></li>
-            <li><span class="mark" aria-hidden="true">✓</span><span>There are no accounts to create and no sign-in.</span></li>
-            <li><span class="mark" aria-hidden="true">✓</span><span>When voice is used, recognition stays on the Apple TV. Audio is not sent off the device.</span></li>
-          </ul>
-          <p class="prose" style="margin-top:1.4rem;"><a href="privacy.html">Read the privacy policy</a></p>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <div class="wrap">
-        <h2>Coming soon to Apple TV</h2>
-        <p>Kid Quest TV is in the works. This page is an outline of the app, not a store listing.</p>
-        <p class="coming">Coming soon to Apple TV</p>
+            <p>When on-device speech is available, kids can say the choice they see — “Start,” “Parents,” “3,” “Tadpole,” and the rest. If it isn’t available, voice is hidden and the Siri Remote is a full way to play.</p>
+          </li>
+          <li>
+            <h3>A page for parents</h3>
+            <p>The Parents screen says there are no ads, no tracking, no accounts, and no network features. When voice is used, recognition stays on that Apple TV.</p>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap inner">
-      <p>Kid Quest TV</p>
-      <nav class="footer-nav" aria-label="Footer">
+    <div class="wrap footer-inner">
+      <p>&copy; 2026 Edward Dunn. Kid Quest TV for Apple TV.</p>
+      <div class="footer-links">
         <a href="privacy.html">Privacy</a>
         <a href="support.html">Support</a>
         <a href="mailto:support@kidquesttv.com">support@kidquesttv.com</a>
-      </nav>
+      </div>
     </div>
   </footer>
+
 </body>
 </html>

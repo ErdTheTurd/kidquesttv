@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0D2933"/>
+  <g transform="translate(8 6) scale(0.22)">
+    <ellipse cx="110" cy="202.4" rx="93.5" ry="19.8" fill="#EDB847" fill-opacity=".12"/>
+    <g transform="translate(35.2 136.4) rotate(-28)">
+      <rect x="-41.8" y="-17.6" width="83.6" height="35.2" rx="17.6" fill="#C77A47"/>
+    </g>
+    <g transform="translate(17.6 127.6) rotate(-28)">
+      <rect x="-19.8" y="-8.8" width="39.6" height="17.6" rx="8.8" fill="#F2E0C2"/>
+    </g>
+    <ellipse cx="110" cy="136.4" rx="57.2" ry="50.6" fill="#C77A47"/>
+    <ellipse cx="110" cy="145.2" rx="30.8" ry="28.6" fill="#F2E0C2"/>
+    <circle cx="110" cy="74.8" r="46.2" fill="#C77A47"/>
+    <ellipse cx="110" cy="101.2" rx="24.2" ry="17.6" fill="#F2E0C2"/>
+    <g transform="translate(74.8 35.2) rotate(-18)">
+      <rect x="-13.2" y="-22" width="26.4" height="44" rx="8.8" fill="#C77A47"/>
+      <rect x="-6.6" y="-6.6" width="13.2" height="22" rx="6.6" fill="#F2E0C2"/>
+    </g>
+    <g transform="translate(145.2 35.2) rotate(18)">
+      <rect x="-13.2" y="-22" width="26.4" height="44" rx="8.8" fill="#C77A47"/>
+      <rect x="-6.6" y="-6.6" width="13.2" height="22" rx="6.6" fill="#F2E0C2"/>
+    </g>
+    <g transform="translate(92.4 79.2)">
+      <circle r="8.8" fill="#F5F0E0"/>
+      <circle r="4.95" fill="#0D2933"/>
+      <circle cx="2.2" cy="-2.2" r="1.65" fill="#F5F0E0"/>
+    </g>
+    <g transform="translate(127.6 79.2)">
+      <circle r="8.8" fill="#F5F0E0"/>
+      <circle r="4.95" fill="#0D2933"/>
+      <circle cx="2.2" cy="-2.2" r="1.65" fill="#F5F0E0"/>
+    </g>
+    <ellipse cx="110" cy="105.6" rx="6.6" ry="4.95" fill="#0D2933"/>
+    <rect x="99" y="114.4" width="22" height="4.4" rx="2.2" fill="#B86B61" fill-opacity=".7"/>
+    <g transform="translate(184.8 127.6)">
+      <rect x="-3.85" y="-37.4" width="7.7" height="22" rx="3.85" fill="#E0DBCC" fill-opacity=".7"/>
+      <rect x="-15.4" y="-19.8" width="30.8" height="39.6" rx="6.6" fill="#EDB847"/>
+      <rect x="-8.8" y="-11" width="17.6" height="22" rx="4.4" fill="#FADB85" fill-opacity=".85"/>
+      <rect x="-13.2" y="-25.3" width="26.4" height="6.6" rx="3.3" fill="#E0DBCC"/>
+    </g>
+  </g>
+</svg>

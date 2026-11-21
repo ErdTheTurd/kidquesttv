@@ -1,10 +1,5 @@
-# Kid Quest TV (marketing site)
+# Kid Quest TV
 
-Static outline site for **Kid Quest TV**, a voice-steered learning adventure for Apple TV.
+Marketing site for [Kid Quest TV](https://erdtheturd.github.io/kidquesttv/), a short learning adventure on Apple TV.
 
-- Future domain: kidquesttv.com (not live yet)
-- Support: support@kidquesttv.com
-
-This folder is website-only. It does not contain app source.
-
-There is no GitHub repository for this site yet.
+Static HTML and CSS at the repository root. No CNAME. No analytics.
