@@ -1,26 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#071C22"/>
-  <ellipse cx="32" cy="58" rx="22" ry="10" fill="#103A40"/>
-  <ellipse cx="14" cy="42" rx="10" ry="7" fill="#C4743A"/>
-  <ellipse cx="12" cy="44" rx="5" ry="4" fill="#E8B078"/>
-  <ellipse cx="32" cy="42" rx="15" ry="16" fill="#C4743A"/>
-  <ellipse cx="32" cy="46" rx="8" ry="10" fill="#E8B078"/>
-  <ellipse cx="32" cy="26" rx="13.5" ry="13" fill="#C4743A"/>
-  <path d="M20 24 L14 10 L28 20 Z" fill="#C4743A"/>
-  <path d="M44 24 L50 10 L36 20 Z" fill="#C4743A"/>
-  <path d="M21 24 L17 14 L26 21 Z" fill="#E8B078"/>
-  <path d="M43 24 L47 14 L38 21 Z" fill="#E8B078"/>
-  <ellipse cx="32" cy="30" rx="5.5" ry="4" fill="#E8B078"/>
-  <ellipse cx="32" cy="31.2" rx="1.4" ry="1.3" fill="#8C4A24"/>
-  <ellipse cx="26.2" cy="24.2" rx="2.3" ry="2.4" fill="#071C22"/>
-  <ellipse cx="37.8" cy="24.2" rx="2.3" ry="2.4" fill="#071C22"/>
-  <ellipse cx="26.8" cy="23.3" rx="0.8" ry="0.8" fill="#FFFAF0"/>
-  <ellipse cx="38.4" cy="23.3" rx="0.8" ry="0.8" fill="#FFFAF0"/>
-  <ellipse cx="50" cy="40" rx="9" ry="9" fill="#E0A84A" fill-opacity=".28"/>
-  <path d="M47 28 A6 6 0 0 1 55 28" stroke="#E0A84A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-  <rect x="46.2" y="31.2" width="10.2" height="2.2" rx="1" fill="#E0A84A"/>
-  <rect x="45.4" y="33" width="11.8" height="11" rx="2" fill="#E0A84A"/>
-  <rect x="47.2" y="34.6" width="8.2" height="7.4" rx="1.2" fill="#FFE096"/>
-  <rect x="46.4" y="44.2" width="10" height="2.2" rx="1" fill="#8C4A24"/>
-  <ellipse cx="44" cy="41" rx="4.2" ry="3.2" fill="#C4743A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" aria-hidden="true">
+  <title>Lumen the fox kit</title>
+  <ellipse cx="110" cy="202.4" rx="93.5" ry="19.8" fill="#EDB847" fill-opacity=".12"/>
+  <g transform="translate(35.2 136.4) rotate(-28)">
+    <rect x="-41.8" y="-17.6" width="83.6" height="35.2" rx="17.6" fill="#C77A47"/>
+  </g>
+  <g transform="translate(17.6 127.6) rotate(-28)">
+    <rect x="-19.8" y="-8.8" width="39.6" height="17.6" rx="8.8" fill="#F2E0C2"/>
+  </g>
+  <ellipse cx="110" cy="136.4" rx="57.2" ry="50.6" fill="#C77A47"/>
+  <ellipse cx="110" cy="145.2" rx="30.8" ry="28.6" fill="#F2E0C2"/>
+  <circle cx="110" cy="74.8" r="46.2" fill="#C77A47"/>
+  <ellipse cx="110" cy="101.2" rx="24.2" ry="17.6" fill="#F2E0C2"/>
+  <g transform="translate(74.8 35.2) rotate(-18)">
+    <rect x="-13.2" y="-22" width="26.4" height="44" rx="8.8" fill="#C77A47"/>
+    <rect x="-6.6" y="-6.6" width="13.2" height="22" rx="6.6" fill="#F2E0C2"/>
+  </g>
+  <g transform="translate(145.2 35.2) rotate(18)">
+    <rect x="-13.2" y="-22" width="26.4" height="44" rx="8.8" fill="#C77A47"/>
+    <rect x="-6.6" y="-6.6" width="13.2" height="22" rx="6.6" fill="#F2E0C2"/>
+  </g>
+  <g transform="translate(92.4 79.2)">
+    <circle r="8.8" fill="#F5F0E0"/>
+    <circle r="4.95" fill="#0D2933"/>
+    <circle cx="2.2" cy="-2.2" r="1.65" fill="#F5F0E0"/>
+  </g>
+  <g transform="translate(127.6 79.2)">
+    <circle r="8.8" fill="#F5F0E0"/>
+    <circle r="4.95" fill="#0D2933"/>
+    <circle cx="2.2" cy="-2.2" r="1.65" fill="#F5F0E0"/>
+  </g>
+  <ellipse cx="110" cy="105.6" rx="6.6" ry="4.95" fill="#0D2933"/>
+  <rect x="99" y="114.4" width="22" height="4.4" rx="2.2" fill="#B86B61" fill-opacity=".7"/>
+  <g transform="translate(184.8 127.6)">
+    <rect x="-3.85" y="-37.4" width="7.7" height="22" rx="3.85" fill="#E0DBCC" fill-opacity=".7"/>
+    <rect x="-15.4" y="-19.8" width="30.8" height="39.6" rx="6.6" fill="#EDB847"/>
+    <rect x="-8.8" y="-11" width="17.6" height="22" rx="4.4" fill="#FADB85" fill-opacity=".85"/>
+    <rect x="-13.2" y="-25.3" width="26.4" height="6.6" rx="3.3" fill="#E0DBCC"/>
+  </g>
 </svg>
